@@ -1,0 +1,203 @@
+/*****************************************
+*           Defaults                     *
+******************************************/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+}
+/*****************************************
+*           Nav Bar                      *
+******************************************/
+.mainlogo{ 
+    width: 80%;
+    border: 1px #fff solid;
+}
+.nav-item{
+    border: 0.5px #fff solid;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-family: "Lora", serif;    
+}
+.navbar-collapse{
+    background-color: #343a40;
+}
+nav{
+    margin-bottom: 3em;
+}
+#searchBtnNavBar{
+    background-color: #343a40;
+}
+/*****************************************
+*           Footer                       *
+******************************************/
+#footerContent{
+    background-color: #343a40;
+}
+#adminlink{
+    color: #17a2b8; 
+}
+footer{
+    padding: 2em 0 1em 0;
+    width: 100%;
+}
+/*****************************************
+*          Main Body & Headings          *
+******************************************/
+h1{
+    color: #fff;
+    font-family: "Lora", serif;
+    text-align: center;
+}
+h2{
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+}
+h3{
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+}
+h4{
+    font-family: "Roboto Slab", serif;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+main{
+    padding-bottom: 3em;
+}
+/*****************************************
+*          Home Page                     *
+******************************************/
+.bg-1{
+    margin: 20px;
+}
+#textTitleOne{
+    text-align: center;
+}
+#homePageImgs{
+    width: 200px;
+    border: 2px solid #117a8b;
+    margin: 5px;
+}
+/*****************************************
+*          Public Login Page             *
+******************************************/
+#publicLogin{
+    padding: 2em;
+    border: 2px solid #117a8b;
+}
+/*****************************************
+*          Admin Login Page              *
+******************************************/
+#adminLogin{
+    padding: 2em;
+    border: 2px solid #ffc107;
+}
+/*****************************************
+*          Error Pages                   *
+******************************************/
+#errorText{
+    color: #dc3545;
+}
+/*****************************************
+*          Registration                  *
+******************************************/
+#accountHead{
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid #117a8b;
+}
+#publicRegister{
+    padding: 2em;
+}
+/*****************************************
+*          Login Complete                *
+******************************************/
+#reDirectLink{
+    color: #ffc107;
+}
+/*****************************************
+*          My Account/Admin              *
+******************************************/
+#myAccText{
+    text-align: center;
+}
+#myAccChoices{
+    padding-top: 2em;
+}
+#myAccHyperLinks{
+    color: #117a8b;
+}
+/*****************************************
+*          Search Page                   *
+******************************************/
+#albumCoverSearch{
+    width: 150px;
+}
+#detailsText{
+    color: #fff;
+}
+th{
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
+.table td{
+    vertical-align: middle;
+}
+td{
+    padding: 0 10px 0 10px;
+    color: #fff;
+    text-align: center;
+}
+table{
+    margin: 2em 0 2em 0;
+}
+
+table, th, td {
+    border: 1px solid #6c757d;
+}
+table{
+    border: 1px solid #6c757d;
+}
+/*****************************************
+*          Details Page                  *
+******************************************/
+#albumCoverDetails{
+    width: 400px;
+}
+/*****************************************
+*          File Upload                   *
+******************************************/
+#submitBtnFileUpload{
+    background-color: #117a8b;
+    color: #fff;
+    padding: 2px;
+    border: 1px solid #117a8b;
+}
+.uploadForm{
+    margin-left: 10%;
+    padding: 15px;
+}
+input{
+    margin: 5px;
+}
+#uploadParaText{
+    font-style: italic;
+}
+#textColourUploadBox{
+    color: #fff;
+    background-color: #000;
+}
+/*****************************************
+*          Update/Delete                 *
+******************************************/
+#updateFormInput{
+    color: #fff;
+    background-color: #000;
+}
+/*****************************************/
